@@ -1,0 +1,28 @@
+{
+  "name": "sdt-beacon",
+  "version": "1.0.0",
+  "description": "Automatic background tracker for play time vs work time, by active window.",
+  "main": "bin/beacon.js",
+  "bin": {
+    "beacon": "./bin/beacon.js"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start": "node bin/beacon.js start"
+  },
+  "keywords": [
+    "cli",
+    "time-tracking",
+    "productivity",
+    "active-window"
+  ],
+  "author": "Super Duper Techno",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuperDuperTechno/beacon.git"
+  }
+}
